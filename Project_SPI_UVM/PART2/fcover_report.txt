@@ -1,0 +1,186 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /SPI_coverage_pkg
+=== Design Unit: work.SPI_coverage_pkg
+=================================================================================
+
+Covergroup Coverage:
+    Covergroups                      1        na        na   100.00%
+        Coverpoints/Crosses          6        na        na        na
+            Covergroup Bins         21        21         0   100.00%
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /SPI_coverage_pkg/SPI_coverage/cg               100.00%        100          -    Covered              
+    covered/total bins:                                    21         21          -                      
+    missing/total bins:                                     0         21          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint MISO_coverage                          100.00%        100          -    Covered              
+        covered/total bins:                                 6          6          -                      
+        missing/total bins:                                 0          6          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint SS_n_coverage                          100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint rst_n_coverage                         100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint MOSI_coverage                          100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross cross_1                                     100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross cross_2                                     100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/SPI_coverage_pkg::SPI_coverage::cg  
+                                                      100.00%        100          -    Covered              
+    covered/total bins:                                    21         21          -                      
+    missing/total bins:                                     0         21          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint MISO_coverage                          100.00%        100          -    Covered              
+        covered/total bins:                                 6          6          -                      
+        missing/total bins:                                 0          6          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin ZERO                                        84003          1          -    Covered              
+        bin ONE                                         92838          1          -    Covered              
+        bin WRITE_adderss                               79274          1          -    Covered              
+        bin WRITE_data                                   1734          1          -    Covered              
+        bin READ_adderss                                 1760          1          -    Covered              
+        bin READ_data                                   88084          1          -    Covered              
+    Coverpoint SS_n_coverage                          100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin ZERO                                       186512          1          -    Covered              
+        bin ONE                                         13489          1          -    Covered              
+        bin ONE_to_ZERO                                 13201          1          -    Covered              
+        bin ZERO_to_ONE                                 13200          1          -    Covered              
+    Coverpoint rst_n_coverage                         100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin ZERO                                         3908          1          -    Covered              
+        bin ONE                                        196093          1          -    Covered              
+    Coverpoint MOSI_coverage                          100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin ZERO                                        98252          1          -    Covered              
+        bin ONE                                        101749          1          -    Covered              
+    Cross cross_1                                     100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin bin1                                      278          1          -    Covered              
+            bin bin2                                      272          1          -    Covered              
+            bin bin3                                    12929          1          -    Covered              
+    Cross cross_2                                     100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin bin1                                    73666          1          -    Covered              
+            bin bin2                                     1732          1          -    Covered              
+            bin bin3                                     1758          1          -    Covered              
+            bin bin4                                    81882          1          -    Covered              
+
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /SPI_coverage_pkg/SPI_coverage/cg               100.00%        100          -    Covered              
+    covered/total bins:                                    21         21          -                      
+    missing/total bins:                                     0         21          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint MISO_coverage                          100.00%        100          -    Covered              
+        covered/total bins:                                 6          6          -                      
+        missing/total bins:                                 0          6          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint SS_n_coverage                          100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint rst_n_coverage                         100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint MOSI_coverage                          100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross cross_1                                     100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross cross_2                                     100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/SPI_coverage_pkg::SPI_coverage::cg  
+                                                      100.00%        100          -    Covered              
+    covered/total bins:                                    21         21          -                      
+    missing/total bins:                                     0         21          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint MISO_coverage                          100.00%        100          -    Covered              
+        covered/total bins:                                 6          6          -                      
+        missing/total bins:                                 0          6          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin ZERO                                        84003          1          -    Covered              
+        bin ONE                                         92838          1          -    Covered              
+        bin WRITE_adderss                               79274          1          -    Covered              
+        bin WRITE_data                                   1734          1          -    Covered              
+        bin READ_adderss                                 1760          1          -    Covered              
+        bin READ_data                                   88084          1          -    Covered              
+    Coverpoint SS_n_coverage                          100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin ZERO                                       186512          1          -    Covered              
+        bin ONE                                         13489          1          -    Covered              
+        bin ONE_to_ZERO                                 13201          1          -    Covered              
+        bin ZERO_to_ONE                                 13200          1          -    Covered              
+    Coverpoint rst_n_coverage                         100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin ZERO                                         3908          1          -    Covered              
+        bin ONE                                        196093          1          -    Covered              
+    Coverpoint MOSI_coverage                          100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin ZERO                                        98252          1          -    Covered              
+        bin ONE                                        101749          1          -    Covered              
+    Cross cross_1                                     100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin bin1                                      278          1          -    Covered              
+            bin bin2                                      272          1          -    Covered              
+            bin bin3                                    12929          1          -    Covered              
+    Cross cross_2                                     100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin bin1                                    73666          1          -    Covered              
+            bin bin2                                     1732          1          -    Covered              
+            bin bin3                                     1758          1          -    Covered              
+            bin bin4                                    81882          1          -    Covered              
+
+TOTAL COVERGROUP COVERAGE: 100.00%  COVERGROUP TYPES: 1
+
+Total Coverage By Instance (filtered view): 100.00%
+
